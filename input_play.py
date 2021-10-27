@@ -1,0 +1,7 @@
+from getpass import getpass
+
+
+username = input('Username: ')
+password = getpass('Password: ')
+
+print(f'Welcome {username}')
